@@ -5,15 +5,15 @@ import Header from "./components/header/header";
 const links = [
   {
     id: "1",
-    label: "Main",
+    label: "Hotéis",
   },
   {
     id: "2",
-    label: "Main 2",
+    label: "Reservas",
   },
   {
     id: "3",
-    label: "Main 3",
+    label: "Combos",
   },
   {
     id: "4",
