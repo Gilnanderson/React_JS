@@ -1,0 +1,26 @@
+.search{
+    display: inline-block;
+    /* border: 5px, solid, red; */
+    width: 400px;
+    height: 200px;
+    padding-left: 20px;
+}
+
+
+.inputCentral{
+    background: #ccc;
+    border: none;
+    border-radius: 4px;
+    width: 350px;
+    height: 30px;
+    margin-top: 80px;
+}
+
+
+.buscar{
+    margin-left: 10px;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    background: red;
+}

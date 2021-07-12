@@ -1,36 +1,53 @@
 import './App.css';
+import Banner from './components/banner/banner';
 import Header from "./components/header/header";
-
+import Search from "./components/input/input";
+import Card from "./components/card/card";
 
 const links = [
   {
     id: "1",
-    label: "Hotéis",
+    label: "TOP Filmes",
   },
   {
     id: "2",
-    label: "Reservas",
+    label: "Filmes",
   },
   {
     id: "3",
-    label: "Combos",
+    label: "Mais",
   },
   {
     id: "4",
-    label: "Main 4",
-  },
-  {
-    id: "5",
-    label: "Main 5",
+    label: "Login",
   },
   
+  ];
+
+  const cards = [
+    {
+      id: "1",
+      url: "./card/filme.jpg",
+      nome: "Cidade de Deus",
+      nota: "9.5",
+      tempo: "2h10",
+    },
+    {
+      id: "2",
+      url: "card/filme.jpg",
+      nome: "Cidade de Deus",
+      nota: "9.5",
+      tempo: "2h10",
+    },
   ];
 
 function App() {
   return (
     <div className="container">
       <Header listaLink={links}/>
-      <input type="text" className="inputCentral"></input>
+      {/* <Banner/> */}
+      <Search/>
+      <Card listaCard={cards}/>
       
     </div>
   );

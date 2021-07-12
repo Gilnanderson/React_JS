@@ -1,19 +1,23 @@
 import "./header.css";
 
+
+
+
 const Header = ({listaLink}) => {
     console.log("listando props de Header", listaLink);
     return (
       <div className="container-header">
-        <div>
-          <h1>LoGo</h1>
-        </div>
-        <ul className="estilo-tabela">
+
+        <div id="logo"><i className="fas fa-jedi"></i> Cinemateca</div>
+        
+        
+        <div className="estilo-links">
           {
             listaLink.map((link)=> {
-              return <li key={link.id}>{link.label}</li>
+              return <button className="botao"><a href="{link.id}" key={link.id} className={link.label}>{link.label}</a></button>
             })
           }
-        </ul>
+        </div>
       </div>
     );
   };
