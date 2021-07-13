@@ -1,5 +1,6 @@
 import './App.css';
-import Banner from './components/banner/banner';
+// import image from "./components/card/"
+import Banner from "./components/banner/banner";
 import Header from "./components/header/header";
 import Search from "./components/input/input";
 import Card from "./components/card/card";
@@ -45,7 +46,7 @@ function App() {
   return (
     <div className="container">
       <Header listaLink={links}/>
-      {/* <Banner/> */}
+      <Banner/>
       <Search/>
       <Card listaCard={cards}/>
       

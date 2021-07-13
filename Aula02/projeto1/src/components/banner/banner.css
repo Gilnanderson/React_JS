@@ -1,5 +1,7 @@
 .imagem{
     border: 1px solid red;
-    width: 100%;
-    height: 100px;
+    margin-left: 0;
+    
+    width: 10px;
+    height: 10px;
 }

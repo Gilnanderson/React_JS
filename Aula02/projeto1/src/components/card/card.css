@@ -2,6 +2,8 @@
     border: 1px, solid, red;
     width: 230px;
     height: 300px;
+    display: flex;
+    flex-direction: row;
 }
 
 .poster{

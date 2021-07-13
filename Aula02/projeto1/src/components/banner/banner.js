@@ -1,9 +1,13 @@
 import "./banner.css";
+import imagem from "./banner.jpeg";
 
 const Banner = () => {
-    <div className="imagem">
-        <img src="banner.jpeg" alt="imagem do banner"/>
-    </div>;
+    return(
+        <div className="imagem">
+        <img src="https://acessocultural.com.br/wp-content/uploads/2020/08/o-rei-leao-1.jpg" alt="imagem do banner"/>
+    </div>
+    )
+    
 }
 
 
