@@ -2,11 +2,11 @@ import React from 'react';
 
 // import { Container } from './styles';
 
-function Input() {
+function Input({ type = "text", label, id, value, setValue, ...props}) {
     return (
         <div>
-            <label htmlFor="name">Nome</label>
-            <input type="text" />
+            <label htmlFor={id}>{label}</label>
+            <input id={id} type={type} value={value} onChange={({target}) => setValue(target.value)} {...props}/>
         </div>
     ) 
 }
