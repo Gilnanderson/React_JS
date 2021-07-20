@@ -11,7 +11,7 @@ function Card({data}) {
       <h1>{imdbRating}</h1>
       <h1>{Year}</h1>
       <img src={Poster} alt={Title} />
-      <h2>teste</h2>
+
   </div>
   )
 }

@@ -6,8 +6,7 @@ import "./header.css"
 function Header({listaLink}) {
   return (
     <div className="container-header">
-
-        <div id="logo"><i className="fas fa-jedi"></i> Cinemateca</div>
+        <a id="logo" href="/"><i className="fas fa-jedi"></i> Cinemateca</a>
     
     
         <div className="estilo-links">

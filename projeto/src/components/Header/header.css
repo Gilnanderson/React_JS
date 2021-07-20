@@ -19,7 +19,10 @@
     width: 500px;
     font-size: 30px;
     padding-left: 30px;
+    text-decoration: none;
+    color: black;
 }
+
 
 .estilo-links{
     /* border: 1px, solid, red; */

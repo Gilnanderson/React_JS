@@ -1,7 +1,9 @@
 import React from 'react';
 import Header from '../../components/Header';
 import Banner from '../../components/Banner';
+import Input from '../../components/Form/Input';
 import "./style.css"
+import Button from '../../components/Form/Button';
 
 // import { Container } from './styles';
 
@@ -27,10 +29,16 @@ const links = [
 
 function Home() {
   return (
-    <Header listaLink={links}/>,
+    
     <div>
-        <Banner />
+      <Header listaLink={links}/>
+      <Banner />
+      <form className="search">
+        <Input />
+        <Button />
+      </form>
     </div>
+    
         
   )
 }
