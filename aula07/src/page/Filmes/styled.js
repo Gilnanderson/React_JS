@@ -3,10 +3,6 @@ import styled from "styled-components"
 
 export const Container = styled.div`
 
-background-color: red;
-.texto2 {
-    color: #fff;
-}
 
 `;
 
