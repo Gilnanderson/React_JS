@@ -6,11 +6,7 @@ export const Container = styled.div`
 
 `;
 
-export const Title1 = styled.h1`
 
-color: blue;
-
-`;
 
 export const Button = styled.button`
     width: 200px;

@@ -6,7 +6,10 @@ function Input({id, value, label, setValue,type, ...props}) {
   return (
       <>
         <label htmlFor={id}>{label}</label>
-        <input id={id} type={type} value={value} onChange={({target}) => setValue(target.value)} {...props} />
+        <input id={id} 
+        type={type} 
+        value={value} 
+        onChange={({target}) => setValue(target.value)} {...props} />
       </>
   )
 }
